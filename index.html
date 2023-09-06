@@ -1,43 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<Header>
-    <Section class="Header">
-        <h1>Zachary Lyda!</h1>
-        <Section Class="Links">
-            <a href=".About">About Me</a>
-            <a href=".Work">Work</a>
-            <a href=".Contact">Contact Me</a>
-            <a href="">Resume</a>
-        </Section>
-    </Section>
-</Header>
+
 <body id="grad">
-    <Section>
-        <Section class="About">
-            <h3>About Me</h3>
-                <p></p>
+    <header>
+        <Section class="Header">
+            <h1>Zachary Lyda!</h1>
+            <Section Class="Links">
+                <a href="#About">About Me</a>
+                <a href="#Work">Work</a>
+                <a href="#Contact">Contact Me</a>
+                <a href="">Resume</a>
+            </Section>
         </Section>
-        <section class="Work">
+    </header>
+    <main>
+        <Section id="About" class="About">
+            <h3>About Me</h3>
+            <p>I am a proud father of two and husband that is extremely interested in the tech work. Coding is something
+                that has always had my interest and i am so glad to finally be getting into the feild. I so far have
+                practiced with HTML and CSS.</p>
+        </Section>
+        <section id="Work" class="Work">
             <h3>Work</h3>
-            <a href="https://zlyda1993.github.io/prework-study-guide/"><img src="./Pre-work.png" alt="Coding Pre-work"></a>
+            <div class="lgImg">
+                <a href="https://zlyda1993.github.io/prework-study-guide/">
+                    <img src="./Pre-work.png" alt="Coding Pre-work" /></a>
+            </div>
             <a href="https://zlyda1993.github.io/probable-bassoon/"><img src="./Reformmat.png" alt="Reformat"></a>
             <a href="https://zlyda1993.github.io/friendly-eureka/"><img src="First Website.png" alt="First Website"></a>
         </section>
-        <section class="Contact">
-            <h3>Contact Me</h3>
-                <p>777-777-7777</p>
-                <p>StudentEmail123@gmail.com</p>
-                <p>GitHub</p>
-                <p>Twitter</p>
-                <p>Spotify</p>
-        </section>
-    </Section>
-    
+    </main>
+    <footer id="Contact" class="Contact">
+        <h3>Contact Me</h3>
+        <div>
+            <p>777-777-7777</p>
+            <p>StudentEmail123@gmail.com</p>
+            <p>GitHub</p>
+            <p>Twitter</p>
+            <p>Spotify</p>
+        </div>
+    </footer>
 </body>
+
 </html>
