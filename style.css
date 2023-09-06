@@ -1,0 +1,26 @@
+* {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#grad {
+  background-image: linear-gradient(rgb(196, 195, 195), rgb(67, 67, 67));
+}
+
+.Links {
+   
+}
+
+h1, h3 {
+    color: Black;
+}
+
+.Work img {
+    border: solid;
+    border-color: black;
+    margin: 10px;
+    
+}
+
+@media 
